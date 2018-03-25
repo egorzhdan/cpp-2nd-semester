@@ -14,7 +14,7 @@ struct derived : base {
 int main() {
     derived d;
     base& b = d;
-    d.print();
+    b.print();
 }
 ```
  – выведет `derived`, потому что функция виртуальная.
