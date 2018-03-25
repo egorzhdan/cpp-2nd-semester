@@ -24,8 +24,8 @@ int main() {
 ```cpp
 int main() {
     derived d;
-    base& b = d;
-    d.print();
+    base b = d;
+    b.print();
 }
 ```
  – выведет `base`, потому что создался новый объект типа `base`.
