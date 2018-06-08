@@ -8,7 +8,7 @@ insert(iterator, T const& it);
 erase(iterator, iterator);
 ```
 
-`ReversedIterator` позволяет итерироваться в обратном порядке. 
+`std::reverse_iterator` позволяет итерироваться в обратном порядке. 
 У него есть метод `.base()`, который возвращает обычный итератор.
 
 
